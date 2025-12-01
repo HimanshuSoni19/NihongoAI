@@ -2,3 +2,7 @@
 .ipynb_checkpoints
 elyza-env/
 EDA.ipynb
+# Python cache
+__pycache__/
+*.pyc
+*/__pycache__/
