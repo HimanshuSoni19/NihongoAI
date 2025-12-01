@@ -4,11 +4,8 @@ python-dotenv
 pandas
 
 # AI/LLM Dependencies
-huggingface-hub
-crewai
-crewai-tools
-langchain-google-genai
 google-generativeai
+huggingface-hub
 protobuf==4.25.5
 
 # Optional but recommended

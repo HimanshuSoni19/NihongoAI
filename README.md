@@ -26,13 +26,15 @@
 ## 🛠️ Tech Stack
 
 - **Frontend**: [Streamlit](https://streamlit.io/)
-- **AI Model**: Google Gemini 2.5 Flash (via `google-generativeai`)
+- **AI Models**:
+    - **Google Gemini 2.5 Flash** (via `google-generativeai`) - *Primary*
+    - **Elyza Llama 7B** (Local Model) - *Alternative*
 - **Backend Logic**: Python
 - **Data Management**: Pandas
 
 ---
 
-## � Project Structure
+## 📂 Project Structure
 
 ```text
 NihongoAI/
@@ -57,7 +59,8 @@ NihongoAI/
 ├── .env                     # API keys (not committed)
 ├── .gitignore
 ├── requirements.txt
-└── app_with_gemini.py       # Main application entry point
+├── app_with_gemini.py       # Main application (Gemini Version)
+└── app.py                   # Alternative application (Elyza Version)
 ```
 
 ---
@@ -82,8 +85,15 @@ NihongoAI/
     ```
 
 4.  **Run the App**
+
+    **Option A: Gemini Version (Recommended)**
     ```bash
     streamlit run app_with_gemini.py
+    ```
+
+    **Option B: Elyza Version (Local)**
+    ```bash
+    streamlit run app.py
     ```
 
 ---
